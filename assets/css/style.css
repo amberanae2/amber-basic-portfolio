@@ -14,51 +14,23 @@ body {
   color: #333;
   background: 66666;
 }
-
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-  background: aliceblue;
-}
-
-.header {
-  background-color: 66666;
-  padding: 20px 10px;
-  margin:0px;
-  float:center;
-  list-style: none;
-  margin-top: 5px;
+.container{
   width:960px;
+  margin: 0 auto;
+  line-break: auto;
+  clear: both;
+  background: teal;
 }
   
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
 
-.logo {
-  background:teal;
-  display:inline-block;
-  list-style: none;
-  margin-right: 63px;
- 
-}
+
 
 .main-nav
 {
    float:right;
    list-style: none;
-   margin-top: 5px;
+   margin-top: 0px;
+
 }
 
 .main-nav li
@@ -83,9 +55,8 @@ a {
   color:black;
 }
 
-.container {
+.context {
   width: 650px;
-  height:600px;
   margin: 0px auto;
   background: #dddddd;
   position: relative;
@@ -93,7 +64,7 @@ a {
   padding-left: 40px;
   box-sizing: border-box;
   border: 6px;
-  overflow: auto;
+  overflow-wrap: break-word;
 
   
 }
@@ -154,6 +125,14 @@ p {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  width: 650px
+}
+
+label {
+  display:block;
+  margin-top:20px;
+  letter-spacing:2px;
+  float:center;
 }
 
 
