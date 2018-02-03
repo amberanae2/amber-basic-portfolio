@@ -1,0 +1,170 @@
+
+
+*
+{
+      margin: 0;
+      padding: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: 66666;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: aliceblue;
+}
+
+.header {
+  background-color: 66666;
+  padding: 20px 10px;
+  margin:0px;
+  float:center;
+  list-style: none;
+  margin-top: 5px;
+  width:960px;
+}
+  
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.logo {
+  background:teal;
+  display:inline-block;
+  list-style: none;
+  margin-right: 63px;
+ 
+}
+
+.main-nav
+{
+   float:right;
+   list-style: none;
+   margin-top: 5px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li
+{
+  color: black;
+  padding: 5px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 24px;
+
+}
+
+a {
+  color:black;
+}
+
+.container {
+  width: 650px;
+  height:600px;
+  margin: 0px auto;
+  background: #dddddd;
+  position: relative;
+  clear: both;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border: 6px;
+  overflow: auto;
+
+  
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+}
+
+#main-bio,
+#bio-image {
+  float: center;
+  box-sizing: content-box;
+  margin-right: -100px;
+  overflow:auto;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+  float: right;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  padding: 30px;
+}
+
+p {
+  float: left;
+}
+
+
+
+
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: gray;
+  text-align: center;
+  clear: both;
+  margin-bottom: 0%;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  background-color: gray;
+  text-align: center;
+  clear: both;
+  margin-bottom: 0%;
+}
